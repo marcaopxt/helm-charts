@@ -151,7 +151,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: jenkins-keys 
-                   key: "GITHUB_SSH_PRIVATE_KEY"
+                  key: "GITHUB_SSH_PRIVATE_KEY"
             - name: POD_NAME
               valueFrom:
                 fieldRef:
