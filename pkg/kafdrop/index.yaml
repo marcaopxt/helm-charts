@@ -1,3 +1,13 @@
 apiVersion: v1
-entries: {}
-generated: "2021-02-15T00:19:48.1453255-03:00"
+entries:
+  kafdrop:
+  - apiVersion: v1
+    appVersion: 3.x
+    created: "2021-02-15T00:25:25.6550364-03:00"
+    description: A Helm chart for Kafdrop
+    digest: ad56afd359813b20bc390829ed8a9f5f33f6fe149290b7434a8cd4cd7e8eb0e1
+    name: kafdrop
+    urls:
+    - https://raw.githubusercontent.com/marcaopxt/helm-charts/master/pkg/kafdrop/kafdrop-3.1.8-rev4.tgz
+    version: 3.1.8-rev4
+generated: "2021-02-15T00:25:25.6545746-03:00"

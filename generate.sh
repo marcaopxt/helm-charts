@@ -7,6 +7,6 @@ helm repo index pkg/jenkins/ --url https://raw.githubusercontent.com/marcaopxt/h
 
 mkdir -p pkg/kafdrop
 
-helm package --version 3.1.8-rev4 charts/kafdrop/  -d pkg/
+helm package --version 3.1.8-rev4 charts/kafdrop/  -d pkg/kafdrop
 helm repo index pkg/kafdrop/ --url https://raw.githubusercontent.com/marcaopxt/helm-charts/master/pkg/kafdrop
 
