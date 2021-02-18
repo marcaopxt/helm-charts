@@ -152,7 +152,7 @@ spec:
                 secretKeyRef:
                   name: jenkins-keys 
                   key: "GITHUB_SSH_PRIVATE_KEY"
-             - name: SONARQUBE_TOKEN
+            - name: SONARQUBE_TOKEN
               valueFrom:
                 secretKeyRef:
                   name: jenkins-keys 
